@@ -1,0 +1,43 @@
+@import "../../css/variables.scss";
+
+.weather-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100vw;
+  color: $font-color;
+}
+
+img {
+  width: 75%;
+}
+
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) {
+  img {
+    width: 40%;
+  }
+}
+
+.arrow {
+  width: 10%;
+}
+
+.min-max {
+  display: flex;
+  justify-content: space-evenly;
+  div {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.forecast {
+  border-radius: 50%;
+  background-color: transparent;
+  border: 1px solid gray;
+  height: 50px;
+  position: relative;
+  top: 10%;
+}
