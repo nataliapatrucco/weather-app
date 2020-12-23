@@ -17,3 +17,7 @@ You will also see any lint errors in the console.
 ## Project
 
 This project was made with an open weather API, using React, Sass & Eslint.
+
+Type the city on the top navbar and get the weather results.
+
+![Sunny Day Sample](/src/img/app-sunny-day.png?raw=true)
